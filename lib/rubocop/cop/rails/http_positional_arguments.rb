@@ -12,7 +12,7 @@ module RuboCop
       #
       # @example
       #   # bad
-      #   get :new, { user_id: 1}
+      #   get :new, { user_id: 1 }
       #
       #   # good
       #   get :new, params: { user_id: 1 }
